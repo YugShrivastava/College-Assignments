@@ -1,6 +1,6 @@
-/* html{
+html{
     scroll-behavior: smooth;
-} */
+}
 
 body {
     font-family: "Roboto", sans-serif;
@@ -130,7 +130,7 @@ li {
     display: flex;
     margin-top: 70px;
     margin-bottom: 100px;
-    align-items: baseline;
+    align-items: center;
 }
 #mail-img-div {
     background-color: #f4eefa;
