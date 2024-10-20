@@ -200,13 +200,13 @@ li {
     padding: 10px;
     background-color: #f4eefa;
     border: none;
-    border-radius: 7px;
     width: 100%;
 }
 input[type="submit"]{
     background-color: #7a19e9;
     color: white;
     font-size: 1rem;
+    border-radius: 7px;
     width: 65%;
 }
 .contact-right label{
