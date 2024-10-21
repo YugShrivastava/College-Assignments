@@ -214,3 +214,60 @@ input[type="submit"]{
     font-weight: 600;
     padding-bottom: 10px;
 }
+
+
+@media (max-width: 1000px) {
+    .about-me{
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+    input[type="submit"]{
+        width: 100%;
+    }
+}
+
+@media (max-width: 750px) {
+    body{
+        padding: 0% 5vw ;
+    }
+}
+
+@media (max-width: 650px) {
+    .navigation nav ul li a button span{
+        display: none;
+    }
+    #email{
+        background-color: white;
+    }
+    #email img{
+        filter: invert(1);
+    }
+}
+
+@media (max-width: 500px) {
+    input[type="submit"]{
+        font-size: 0.7rem;
+    }
+    .card,
+    .skills p,
+    .about-button a button,
+    .about-para{
+        font-size: 0.9rem;
+    }
+    .contact-right label{
+        font-size: 1.3rem;
+    }
+    .about h1,
+    #big-p,
+    .skills h2{
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .contact-me{
+        flex-direction: column;
+        justify-content: baseline;
+        align-items: baseline;
+    }
+}
